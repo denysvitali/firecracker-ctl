@@ -32,3 +32,19 @@ firecracker-ctl drive \
   
 firecracker-ctl action start
 ```
+
+## Building `firecracker-ctl`
+
+### Requirements
+
+- Go
+
+### Build
+
+`go build -o ~/go/bin/firecracker-ctl ./cmd/firecracker-ctl`
+
+## Running directly
+
+```shell
+go install github.com/denysvitali/firecracker-ctl/cmd/firecracker-ctl
+```
